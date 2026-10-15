@@ -17,6 +17,7 @@ let package = Package(
             name: "MTTransitions",
             dependencies: ["MetalPetal"],
             path: "Source",
+            sources: [".", "Transitions"],  // Explicitly include Transitions subdirectory
             resources: [
                 .process("Transitions")
             ]
