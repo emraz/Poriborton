@@ -18,7 +18,7 @@ let package = Package(
             dependencies: ["MetalPetal"],
             path: "Source",
             resources: [
-                .process("Transitions")  // This will include all .metal files
+                .process("Transitions")
             ]
         )
     ],
